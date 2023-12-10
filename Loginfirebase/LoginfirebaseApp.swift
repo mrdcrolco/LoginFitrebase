@@ -11,10 +11,7 @@ import Firebase
 @main
 struct LoginfirebaseApp: App {
     
-    init() {
-        FirebaseApp.configure()
-        print("Configured Firebase!")
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {

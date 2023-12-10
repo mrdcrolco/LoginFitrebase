@@ -39,6 +39,7 @@
 		6723A47F2B253F170009C45C /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6723A47E2B253F170009C45C /* FirebaseRemoteConfigSwift */; };
 		6723A4812B253F170009C45C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6723A4802B253F170009C45C /* FirebaseStorage */; };
 		6723A4832B253F170009C45C /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6723A4822B253F170009C45C /* FirebaseStorageCombine-Community */; };
+		6723A4862B2540B10009C45C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6723A4852B2540B10009C45C /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		6723A43B2B253B880009C45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6723A43E2B253B880009C45C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6723A44B2B253EE40009C45C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6723A4852B2540B10009C45C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		6723A4362B253B870009C45C /* Loginfirebase */ = {
 			isa = PBXGroup;
 			children = (
+				6723A4842B2540920009C45C /* Auth */,
 				6723A4372B253B870009C45C /* LoginfirebaseApp.swift */,
 				6723A4392B253B870009C45C /* ContentView.swift */,
 				6723A44B2B253EE40009C45C /* GoogleService-Info.plist */,
@@ -122,6 +125,14 @@
 				6723A43E2B253B880009C45C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6723A4842B2540920009C45C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6723A4852B2540B10009C45C /* AuthView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			files = (
 				6723A43A2B253B870009C45C /* ContentView.swift in Sources */,
 				6723A4382B253B870009C45C /* LoginfirebaseApp.swift in Sources */,
+				6723A4862B2540B10009C45C /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
