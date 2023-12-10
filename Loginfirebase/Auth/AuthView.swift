@@ -9,7 +9,20 @@ import SwiftUI
 
 struct AuthView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationLink{
+            Text("Hello")
+        } label: {
+            Text("Sign Up with Email")
+                .font(.headline)
+                .foregroundColor(.white)
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .cornerRadius(10)
+                .padding()
+        }
+        .navigationBarTitle(Text("Today"))
     }
 }
 
