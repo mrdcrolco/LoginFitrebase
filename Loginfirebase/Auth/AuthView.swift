@@ -22,7 +22,7 @@ struct AuthView: View {
                 .cornerRadius(10)
                 .padding()
         }
-        .navigationBarTitle(Text("Today"))
+        .navigationTitle(Text("Today"))
     }
 }
 
